@@ -1,0 +1,10 @@
+----------------8<-------------[ START TEST 
+        🔎 YOUR OUTPUT:
+microshell/microshell.c: In function ‘exec’:
+microshell/microshell.c:39:9: error: assignment to ‘int’ from ‘__pid_t (*)(void)’ {aka ‘int (*)(void)’} makes integer from pointer without a cast [-Werror=int-conversion]
+   39 |     pid = fork;
+      |         ^
+cc1: all warnings being treated as errors
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
